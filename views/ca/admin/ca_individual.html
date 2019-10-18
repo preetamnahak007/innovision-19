@@ -4,34 +4,23 @@
 <script src="../../../assets/lib/jquery/jquery.min.js"></script>
 
 <body style="background-color: #FBC02D">
-    <br>
+    <br><br><br>
     <div class="container">
         <center>
             <div class="row">
-                <h1 style="display: inline">
-                    <b>Campus Ambassador</b>
+                <h1 style="display: inline;font-size: 50px">
+                    <b>Event Coordinator</b>
                 </h1>
-                <button style="float: right" class="btn btn-info logout-button" onclick="location.href = 'index.html'">Logout</button>
             </div>
+
+            <br><br><br><br><br><br>
+
+            <button type="button" class="btn btn-default" style="width: 300px; height: 60px;">
+              <a href="requirements.html"><h3><b>See Requirements</b></h3></a>
+            </button>
         </center>
     </div>
-    
-    <div class="container" style="background-color: #FFF;border-radius: 2px;box-shadow: 0px 3px 8px rgba(0,0,0,0.25);margin-top: 10vh;">
-        <div class="row" style="margin-top: 4em">
-        
-            <div class="col-md-12">
-                <div id="Ca-details"></div>
-                <button  class="btn btn-info" id="accept_ca" style="text-align: center;margin-left: 38vw;"></button>
-                <br>
-                <br>
-                <br>              
-                </div>
 
-            </div>
-        </div>
-    </div>
-    </div>
-  
 
 
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -39,7 +28,7 @@
     <script src="../../../assets/js/ajax/ca_details.js"></script>
 
     
-    <script>
+    <!-- <script>
         $(document).on("click", ".logout-button", function() {
             window.location.assign("./index.html");
         });
@@ -48,7 +37,7 @@
         $(document).ready(function() {
             if (!(localStorage.cms_token)) window.location.assign("./index.html");
         });
-    </script>
+    </script> -->
 </body>
 
 </html>
